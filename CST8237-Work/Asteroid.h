@@ -4,7 +4,7 @@
 #include "GameObject.h"
 #include <SDL.h>
 
-#define MAXASTEROIDS 10
+#define MAXASTEROIDS 1
 
 struct SDL_Renderer;
 

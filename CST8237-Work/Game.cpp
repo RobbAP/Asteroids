@@ -105,6 +105,7 @@ void Game::UpdateImpl(float dt)
 
 	if (_lives < 1 || _player.hits > 9)
 	{
+		_lives = 5;
 		_score = 0;
 		InitializeImpl();
 	}

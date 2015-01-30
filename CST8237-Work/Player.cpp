@@ -64,11 +64,17 @@ void Player::Update(float dt)
 		bullet[j].Update(dt);
 	}
 
-	// Caps velocity to limit speed
+	/* Caps velocity to limit speed
 	if (velocity.x > 50)
 		velocity.x = 50;
 	if (velocity.y > 50)
 		velocity.y = 50;
+	if (velocity.x < -50)
+		velocity.x = -50;
+	if (velocity.y < -50)
+		velocity.y = -50;
+		*/
+
 }
 
 // calculates new offsets based on players rotation and draws the spaceship
